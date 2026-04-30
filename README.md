@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/vicobarafor/federated-lora-geometry/main/results/plots/figure1_alignment_delta_vs_final_accuracy.png" width="70%">
-</p>
 # Victor Obarafor
 
 Researcher in Federated Learning and Trustworthy AI (PhD)  
