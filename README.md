@@ -17,7 +17,7 @@ https://victor-website-one.vercel.app/
 
 ## Research Direction
 
-Federated learning systems are typically developed under idealized assumptions.
+Federated learning systems are typically studied under idealized conditions.
 
 In practice, **heterogeneity, drift, and conflicting client updates introduce instability** that standard methods do not address.
 
@@ -25,60 +25,60 @@ My work focuses on a central question:
 
 > **When and why does federated learning fail under real-world conditions?**
 
-The goal is to understand these failure modes and design methods that remain stable, reliable, and scalable in realistic distributed environments.
+The goal is to characterize these failure modes and design methods that remain stable in realistic distributed environments.
 
 ---
 
 ## Research Program
 
-This research is organized around three connected directions.
+This work is organized around three directions:
 
-### Robust Federated Learning under Non-IID Data
-Study of aggregation methods under distribution shift, drift, and heterogeneous client behavior.
+**Robust Federated Learning (Non-IID)**  
+Aggregation under distribution shift and client heterogeneity.
 
-### Personalization under Heterogeneity
-Analysis of how much individual clients should adapt shared models, and when personalization improves or harms global performance.
+**Personalization under Heterogeneity**  
+Client-specific adaptation and its effect on global performance.
 
-### Geometry and Instability in Federated LoRA
-Investigation of training dynamics through update geometry, including alignment, conflict, and early predictors of failure.
+**Geometry and Instability in Federated LoRA**  
+Training dynamics through update alignment, conflict, and early predictors of failure.
 
 ---
 
 ## Selected Work
 
 - **[robust-federated-learning-noniid](https://github.com/vicobarafor/robust-federated-learning-noniid)**  
-  Drift-aware aggregation methods for federated learning under heterogeneous client partitions.
+  Robust aggregation under heterogeneous client distributions  
 
 - **[federated-personalization-depth](https://github.com/vicobarafor/federated-personalization-depth)**  
-  Client-specific adaptation depth in federated systems.
+  Client-specific adaptation in federated systems  
 
 - **[federated-lora-geometry](https://github.com/vicobarafor/federated-lora-geometry)**  
-  Geometry, instability, and early predictors in federated LoRA.
+  Geometry and instability in federated LoRA  
 
 ---
 
 ## Perspective
 
-Many current federated learning methods focus on average-case performance.
+Many approaches optimize for average-case performance.
 
-However, in realistic settings, systems often fail due to:
-- conflicting client updates  
+In realistic settings, systems fail due to:
+- conflicting updates  
 - distributional imbalance  
 - unstable optimization dynamics  
 
-Understanding and addressing these issues requires moving beyond standard benchmarks toward **robust, failure-aware system design**.
+Understanding these behaviors requires focusing on **failure modes, not just performance**.
 
 ---
 
 ## Ongoing Work
 
-- Stability-aware aggregation methods  
+- Stability-aware aggregation  
 - Early indicators of training collapse  
-- Scaling behavior under increasing heterogeneity  
-- Geometry-informed optimization strategies  
+- Scaling under increasing heterogeneity  
+- Geometry-informed optimization  
 
 ---
 
-## Notes
+## Links
 
-This profile represents an ongoing research program on **stability, robustness, and failure modes in federated learning under non-IID data**.
+- Website: https://victor-website-one.vercel.app/  
