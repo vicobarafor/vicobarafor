@@ -1,7 +1,7 @@
 # Victor Obarafor
 
 Researcher in Federated Learning and Trustworthy AI (PhD)  
-https://victor-website-one.vercel.app/
+https://victorobarafor.com/
 
 ---
 
@@ -81,4 +81,4 @@ Understanding these behaviors requires focusing on **failure modes, not just per
 
 ## Links
 
-- Website: https://victor-website-one.vercel.app/  
+- Website: https://victorobarafor.com/  
